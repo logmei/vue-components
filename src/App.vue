@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <edit-table></edit-table>
+    <guide></guide>
   </div>
 </template>
 
 <script>
-import EditTable from './components/EditTable.vue'
+import guide from './layout/components/index.vue'
 
 export default {
   name: 'app',
   components: {
-    EditTable
+    guide
   }
 }
 </script>
